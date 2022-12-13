@@ -125,13 +125,13 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
 
 - Pertama kita mendeklarasikan sebuah class mahasiswa yang didalamnya terdapat atribut NIM, Nama, nilai tugas, nilai UTS dan nilai UAS. Jangan lupa, untuk mendeklarasikan sebuah class didalam OOP kita harus menggunakan **def__init__ dan juga self.**
 
-    class mahasiswa:
-        def __init__(self, nim, nama, tugas, uts, uas):
-            self.nim = nim
-            self.nama = nama
-            self.tugas = tugas
-            self.uts = uts
-            self.uas = uas
+                  class mahasiswa:
+                      def __init__(self, nim, nama, tugas, uts, uas):
+                          self.nim = nim
+                          self.nama = nama
+                          self.tugas = tugas
+                          self.uts = uts
+                          self.uas = uas
 
 - Seperti biasa, deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nantinya berisi NIM, Nama, nilai tugas, nilai UTS dan nilai UAS.
 
