@@ -135,16 +135,16 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
 
 - Seperti biasa, deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nantinya berisi NIM, Nama, nilai tugas, nilai UTS dan nilai UAS.
 
-data = mahasiswa([],[],[],[],[])  
+                  data = mahasiswa([],[],[],[],[])  
 
 - Kita akan buat beberapa method untuk menambahkan, menampilkan, menghapus, mengubah data mahasiswa. Pertama membuat method tambah(), method ini berfungsi untuk menambahkan data. Dalam method ini kita menggunakan append() supaya data yang terakhir ditambahkan ada di urutan list paling akhir.
 
-      def tambah(self,nim,nama,tugas,uts,uas):
-              data.nim.append(nim)
-              data.nama.append(nama)
-              data.tugas.append(tugas)
-              data.uts.append(uts)
-              data.uas.append(uas)
+                  def tambah(self,nim,nama,tugas,uts,uas):
+                          data.nim.append(nim)
+                          data.nama.append(nama)
+                          data.tugas.append(tugas)
+                          data.uts.append(uts)
+                          data.uas.append(uas)         
               
 - Ini tampilan jika kita menginput method : `Tambah()`
 
@@ -152,16 +152,16 @@ data = mahasiswa([],[],[],[],[])
 
 - Fungsi membuat method lihat() yaitu untuk menampilkan seluruh data yang sudah kita tambahkan tadi. Jika tidak ada data sama sekali, maka akan muncul tulisan **TIDAK ADA DATA.**
 
-      def lihat(self):
-              for i in range(len(data.nama)):
-                  print("|", i+1, "  |", end="")
-                  print('{0:<25}'.format(self.nama[i]), end="")
-                  print("|", self.nim[i], end="")
-                  print(" |", self.tugas[i], end="")
-                  print("    |", self.uts[i], end="")
-                  print("  |", self.uas[i], " | ", end="")
-                  print(f'{((self.tugas[i]*30/100) + (self.uts[i]*35/100) + (self.uas[i]*35/100)) :.2f}', " |")
-
+                  def lihat(self):
+                          for i in range(len(data.nama)):
+                              print("|", i+1, "  |", end="")
+                              print('{0:<25}'.format(self.nama[i]), end="")
+                              print("|", self.nim[i], end="")
+                              print(" |", self.tugas[i], end="")
+                              print("    |", self.uts[i], end="")
+                              print("  |", self.uas[i], " | ", end="")
+                              print(f'{((self.tugas[i]*30/100) + (self.uts[i]*35/100) + (self.uas[i]*35/100)) :.2f}', " |")
+                              
 - Ini tampilan jika kita menginput method : `Lihat()`
 
 ![2022-12-13 (1)](https://user-images.githubusercontent.com/115775237/207318604-49733514-5413-4906-9512-5d4d597c8b18.png)
