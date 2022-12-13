@@ -202,3 +202,4 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
 
 ![2022-12-13 (9)](https://user-images.githubusercontent.com/115775237/207319763-51d94963-83f2-4228-9578-ad176f0b937d.png)
 
+# Sekian, Terima Kasih
